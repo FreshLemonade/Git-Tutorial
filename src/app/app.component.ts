@@ -6,7 +6,7 @@ import { RouterModule, Routes }   from '@angular/router';
     selector: 'app-root',
     styleUrls: ['./app.component.css'],
     template: `
-    <<h1>{{title}}</h1>
+    <h1>{{title}}</h1>
     <nav>
       <a routerLink="/dashboard">Dashboard</a>
       <a routerLink="/heroes">Heroes</a>
